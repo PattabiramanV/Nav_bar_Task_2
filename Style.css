@@ -1,0 +1,146 @@
+
+
+body {
+    background-color: darkslategrey;
+}
+.card {
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+p {
+  
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 25px;
+}
+#p_content_2{
+width: 82%;
+
+}
+
+.card {
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 200px;
+    box-shadow: 0px 0px 7px gray;
+    padding: 25px 30px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+span, q{
+    color: #05445E;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+a {
+    color: #05445E;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+/*..............................main file..................*/
+
+
+
+.main_body{
+    background-color: #d3d3d34b;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+
+
+img {
+    width: 120px;
+    height: 50px;
+}
+
+/* .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background: lightgray;
+} */
+/* .nav_middle {
+    display: flex;
+    gap: 35px;
+    /* text-decoration: none; */
+/* }  */
+.nav_right {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.nav_middle a {
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 27px;
+    color: #05445e91;
+}
+.Nav_left {
+    height: 600px;
+    width: 400px;
+   background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 10px;
+    position: relative;
+    left: -421px;
+    /* display: none; */
+
+}
+.nav_middle {
+    display: grid;
+    gap: 40px;
+    margin-bottom: 230px;
+}
+.nav_left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 0 22px;
+
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+#Right_Btn {
+    font-size: 30px;
+    margin: 25px 50px;
+    cursor: pointer;
+    color: #03A9F4;
+}
+
+i#X_btn {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.Nav{
+ 
+    /* position: relative; */
+    left: 0;
+    transition: 1s;
+  
+} 
+.demo{
+    
+ display: none;
+    
+}
+.nav_1{
+
+    transition: 1s;
+}
